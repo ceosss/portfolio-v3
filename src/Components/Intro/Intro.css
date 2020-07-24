@@ -1,113 +1,77 @@
 .intro {
-  height: 90vh-240px;
-  padding: 120px 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  max-width: 1440px;
-  margin: 0 auto;
-  font-size: 2.5rem;
-  display: flex;
-  text-align: start;
+    height: 90vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
-.gree img {
-  width: 40px;
-  vertical-align: text-top;
-  margin: 0 15px;
+.intro img {
+    width: 0.8em;
+    vertical-align: baseline;
+    padding: 0 10px;
 }
 
-.gree {
-  max-width: 700px;
-  font-size: 40px;
-  font-weight: 300;
-  margin: 26px 0;
+.greet {
+    height: 30vh;
 }
+
 .introduction {
-  max-width: 700px;
-  margin: 142px 0;
-  line-height: 60px;
-  font-weight: 300;
+    height: 30vh;
+    line-height: 60px;
+    max-width: 700px;
+    font-size: 40px;
 }
 
-.introduction img {
-  width: 2.5rem;
+.introduction span {
+    font-weight: 600;
 }
-
-.name {
-  font-weight: 700;
-}
-
 .contact {
-  line-height: 30px;
-  font-weight: 400;
-  font-size: 20px;
+    height: 30vh;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .contact img {
-  width: 30px;
-  vertical-align: middle;
-  margin: 0 15px;
-}
-
-:root {
-  --mainColor: #ff9800;
+    width: 2rem;
+    vertical-align: bottom;
 }
 
 .contact a {
-  transition: all 0.2s ease-in-out;
-  font-weight: 400;
-  text-decoration: none;
-  display: inline-block;
-  padding: 2px 3px;
-  text-decoration: none;
-  -webkit-box-shadow: inset 0 -3px 0 #007bff;
-  box-shadow: inset 0 -3px 0 #007bff;
+    transition: all 0.2s ease-in-out;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 3px;
+    text-decoration: none;
+    box-shadow: inset 0 -3px 0 #007bff;
 }
 
 .contact a:hover {
-  box-shadow: inset 0 -33px 0 0 #007bff;
-  color: #fff;
+    box-shadow: inset 0 -33px 0 0 #007bff;
+    color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
-  .introduction {
-    font-size: 2.25rem;
-  }
-  .introduction img {
-    width: 2.25rem;
-  }
+@media screen and (max-width: 500px) {
+    .greet h1 {
+        font-size: 50px;
+    }
+    .introduction {
+        height: 100%;
+    }
 }
 
-@media screen and (max-width: 768px) {
-  .introduction {
-    font-size: 2rem;
-  }
-  .introduction img {
-    width: 2rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  /* .intro {
-    padding: 30px 40px;
-  } */
-  .introduction {
-    margin: 50px 0;
-    font-size: 1.75rem;
-  }
-  .introduction img {
-    width: 1.75rem;
-  }
-  .contact {
-    margin-top: 50px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .introduction {
-    margin: 50px 0;
-    font-size: 1.75rem;
-    line-height: 42px;
-  }
+@media screen and (max-width: 850px) {
+    .greet {
+        /* height: 10vh; */
+    }
+    .introduction {
+        font-size: 30px;
+    }
 }

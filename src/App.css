@@ -1,4 +1,15 @@
 .App {
-  text-align: center;
   color: #444452;
+  width: 100vw;
+  height: 100vh;
+  transition: 400ms ease-in-out;
+}
+
+.dark {
+  background-color: #171c28;
+  color: #e7e7e7;
+}
+
+::selection {
+  background: greenyellow;
 }

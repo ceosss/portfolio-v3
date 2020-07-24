@@ -7,9 +7,11 @@ import Working from "./../../images/working.png";
 const Intro = () => {
   return (
     <div className="intro">
-      <div className="gree">
-        Hello!
-        <img src={Wave} alt="greet" />
+      <div className="greet">
+        <h1>
+          Hello!
+          <img src={Wave} alt="greet" />
+        </h1>
       </div>
 
       <div className="introduction">
@@ -18,10 +20,12 @@ const Intro = () => {
         experiences <img src={Working} alt="working" />.
       </div>
       <div className="contact">
-        Get in touch <img src={Point} alt="point" className="emoji" />
-        <a href="mailto:sswarajsamant@gmail.com" target="blank">
-          sswarajsamant@gmail.com
-        </a>
+        <h3>
+          Get in touch <img src={Point} alt="point" className="emoji" />
+          <a href="mailto:sswarajsamant@gmail.com" target="blank">
+            sswarajsamant@gmail.com
+          </a>
+        </h3>
       </div>
     </div>
   );
