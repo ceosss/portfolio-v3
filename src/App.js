@@ -6,8 +6,6 @@ import Intro from "./Components/Intro/Intro";
 function App() {
   const [dark, setDark] = useState(false);
   const themeChange = (value) => {
-    console.log(value);
-
     setDark(value);
   };
   return (
