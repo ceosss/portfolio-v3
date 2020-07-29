@@ -4,6 +4,8 @@
   align-items: center;
   padding: 20px;
   height: 10vh-40px;
+  /* position: fixed; */
+  /* right: 0; */
 }
 .themer svg {
   padding: 0 10px;

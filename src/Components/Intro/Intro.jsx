@@ -15,9 +15,10 @@ const Intro = () => {
       </div>
 
       <div className="introduction">
-        I'm <span className="name">Swaraj Samant Singh</span> , a design-minded
-        front-end software engineer focused on building beautiful interfaces &
-        experiences <img src={Working} alt="working" />.
+        I'm <span className="name">Swaraj Samant Singh</span> , a Full Stack
+        Software Engineer focused on building beautiful interfaces as well as
+        handling server-side communication between various sources.
+        <img src={Working} alt="working" />.
       </div>
       <div className="contact">
         <h3>

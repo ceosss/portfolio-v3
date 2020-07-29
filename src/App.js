@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Themer from "./Components/Themer/Themer";
 import Intro from "./Components/Intro/Intro";
+import BackSkill from "./Components/BackSkill/BackSkill";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -10,8 +11,13 @@ function App() {
   };
   return (
     <div className={`App ${dark && "dark"}`}>
-      <Themer themeChange={themeChange} dark={dark} />
-      <Intro />
+      <div className="introd">
+        <Themer themeChange={themeChange} dark={dark} />
+        <Intro />
+      </div>
+      <div className="back-skill">
+        <BackSkill />
+      </div>
     </div>
   );
 }
