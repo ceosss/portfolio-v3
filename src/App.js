@@ -3,6 +3,7 @@ import "./App.css";
 import Themer from "./Components/Themer/Themer";
 import Intro from "./Components/Intro/Intro";
 import BackSkill from "./Components/BackSkill/BackSkill";
+import Experience from "./Components/Experience/Experience";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className="back-skill">
         <BackSkill />
+      </div>
+      <div className="exp-div">
+        <Experience />
       </div>
     </div>
   );
