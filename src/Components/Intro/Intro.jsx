@@ -17,7 +17,7 @@ const Intro = () => {
       <div className="introduction">
         I'm <span className="name">Swaraj Samant Singh</span> , a Full Stack
         Software Engineer focused on building beautiful interfaces as well as
-        handling server-side communication between various sources.
+        handling server-side communication between various sources
         <img src={Working} alt="working" />.
       </div>
       <div className="contact">

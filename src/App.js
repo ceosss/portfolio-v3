@@ -5,6 +5,8 @@ import Intro from "./Components/Intro/Intro";
 import BackSkill from "./Components/BackSkill/BackSkill";
 import Experience from "./Components/Experience/Experience";
 import Projects from "./Components/Projects/Projects";
+import Footer from "./Components/Footer/Footer";
+import Form from "./Components/Form/Form";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -26,6 +28,8 @@ function App() {
       <div className="projects-div">
         <Projects />
       </div>
+      <Form dark={dark} />
+      <Footer />
     </div>
   );
 }

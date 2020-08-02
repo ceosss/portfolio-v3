@@ -2,7 +2,6 @@ import React from "react";
 import "./Projects.css";
 
 const Projects = () => {
-  console.log(projectsDetails);
   return (
     <div className="projects">
       <div className="heading">PROJECTS</div>
