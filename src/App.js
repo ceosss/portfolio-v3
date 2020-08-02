@@ -4,6 +4,7 @@ import Themer from "./Components/Themer/Themer";
 import Intro from "./Components/Intro/Intro";
 import BackSkill from "./Components/BackSkill/BackSkill";
 import Experience from "./Components/Experience/Experience";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -21,6 +22,9 @@ function App() {
       </div>
       <div className="exp-div">
         <Experience />
+      </div>
+      <div className="projects-div">
+        <Projects />
       </div>
     </div>
   );
