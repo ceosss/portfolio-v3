@@ -23,9 +23,9 @@ const BackSkill = () => {
             user experiences.
           </p>
           <p>
-            When I'm not in front of a computer screen, I'm probably surfing the
-            internet, watching youtube videos, travelling, or crossing off
-            another item on my bucket list.
+            <strong>When I'm not in front of a computer screen</strong>, I'm
+            probably surfing the internet, watching youtube videos, travelling,
+            or crossing off another item on my bucket list.
           </p>
         </div>
       </div>
