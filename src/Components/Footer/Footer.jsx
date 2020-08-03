@@ -11,7 +11,7 @@ const Footer = () => {
         <span role="img" aria-label="emoji">
           🧡
         </span>{" "}
-        by Swaraj Samant Singh
+        by Swaraj
         <img src={require("./../../images/rock.png")} alt="emoji" /> {year}
       </p>
       <div className="social">

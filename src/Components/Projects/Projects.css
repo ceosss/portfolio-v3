@@ -49,6 +49,28 @@
   margin: 0;
 }
 
+.links {
+  display: flex;
+  justify-content: flex-start;
+}
+.links a {
+  text-decoration: none;
+  color: #007bff;
+  border: 1px solid #007bff;
+  padding: 3px 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: inset 0 -1px 0 #007bff;
+  transition: 400ms;
+  font-weight: 700;
+}
+
+.links a:hover {
+  box-shadow: inset 0 -33px 0 0 #007bff;
+  color: #fff;
+}
+
 @media screen and (max-width: 1260px) {
 }
 @media screen and (max-width: 1200px) {

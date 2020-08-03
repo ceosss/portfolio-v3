@@ -9,11 +9,29 @@ const Projects = () => {
         {projectsDetails.map((project, i) => (
           <div className="project" key={i}>
             <div className="image">
-              <img src={project.image} alt={project.title} />
+              <a href={project.live} target="_blank" rel="noopener noreferrer">
+                <img src={project.image} alt={project.title} />
+              </a>
             </div>
             <div className="desc">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
+              <div className="links">
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LIVE
+                </a>
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GITHUB
+                </a>
+              </div>
             </div>
           </div>
         ))}

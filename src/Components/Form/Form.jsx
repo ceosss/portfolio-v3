@@ -23,12 +23,9 @@ export default class Form extends React.Component {
           >
             <h2>CONTACT ME</h2>
             <span>
-              <label>Email:</label>
               <input type="email" name="email" placeholder="abc@xyz.com" />
             </span>
             <span>
-              <label>Message:</label>
-              {/* <input type="text" name="message" /> */}
               <textarea
                 name="message"
                 id="textarea"
