@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 import "./Projects.css";
 
 const Projects = () => {
@@ -8,10 +8,14 @@ const Projects = () => {
       <div className="heading">PROJECTS</div>
       <div className="content">
         {projectsDetails.map((project, i) => (
-          <Fade duration={2000}>
-            <div className="project" key={i}>
+          <Fade duration={2000} key={i}>
+            <div className="project">
               <div className="image">
-                <a href={project.live} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={project.image} alt={project.title} />
                 </a>
               </div>
@@ -25,14 +29,14 @@ const Projects = () => {
                     rel="noopener noreferrer"
                   >
                     LIVE
-                </a>
+                  </a>
                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     GITHUB
-                </a>
+                  </a>
                 </div>
               </div>
             </div>

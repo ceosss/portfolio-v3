@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   const year = new Date().getFullYear();
-  console.log(socialDetails);
+
   return (
     <footer>
       <p>

@@ -7,7 +7,7 @@ import Experience from "./Components/Experience/Experience";
 import Projects from "./Components/Projects/Projects";
 import Footer from "./Components/Footer/Footer";
 import Form from "./Components/Form/Form";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
 function App() {
   const [dark, setDark] = useState(false);
