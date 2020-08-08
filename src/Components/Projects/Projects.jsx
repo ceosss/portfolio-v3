@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
 import "./Projects.css";
 
 const Projects = () => {
@@ -7,33 +8,35 @@ const Projects = () => {
       <div className="heading">PROJECTS</div>
       <div className="content">
         {projectsDetails.map((project, i) => (
-          <div className="project" key={i}>
-            <div className="image">
-              <a href={project.live} target="_blank" rel="noopener noreferrer">
-                <img src={project.image} alt={project.title} />
-              </a>
-            </div>
-            <div className="desc">
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              <div className="links">
-                <a
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LIVE
-                </a>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GITHUB
+          <Fade duration={2000}>
+            <div className="project" key={i}>
+              <div className="image">
+                <a href={project.live} target="_blank" rel="noopener noreferrer">
+                  <img src={project.image} alt={project.title} />
                 </a>
               </div>
+              <div className="desc">
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <div className="links">
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LIVE
+                </a>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GITHUB
+                </a>
+                </div>
+              </div>
             </div>
-          </div>
+          </Fade>
         ))}
       </div>
     </div>
